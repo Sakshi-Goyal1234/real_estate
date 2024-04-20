@@ -1,0 +1,15 @@
+.comp-wrapper{
+    margin-top:40rem;
+}
+.comp-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 8rem;
+    width: 100%;
+}
+.comp-container>img{
+    height:4rem;
+    width: 9rem;
+}

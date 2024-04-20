@@ -1,0 +1,125 @@
+.hero-wrapper{
+    /* color:white;
+    position:relative;
+    padding-bottom:2rem;
+    background-color: palegreen;
+    width: 100%;
+height: 100vh;
+    position: absolute;
+    top:4rem;
+    left:0rem; */
+    width:100%;
+    color: white;
+ position: absolute; 
+    left:0; 
+    padding-bottom: 2rem;
+    background-color:black;
+    /* height: 100vh; */
+    top: 4rem;
+    left: 0;
+}
+h1,span{
+    color:white;
+}
+.hero-container{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    padding:2rem; 
+    background-color:black;
+    /* position: absolute;
+    top:0;
+    margin-right: 0; */
+}
+.image-container{
+    width:20rem;
+    height:25rem;
+overflow: hidden; 
+margin-top: 2rem;
+    border-radius: 15rem 15rem 0 0;
+    border:8px solid rgba(255,255,255,0.12);
+}
+.image-container>img{
+    width:100%;
+    height:100%;
+    line-height: 4rem;
+}
+.orange{
+    height:15rem;
+    width:15rem;
+    border-radius: 999px;
+    background: var(--orange-gradient);
+    position: absolute;
+    right:28%;
+    top: 10rem; /* Adjust the position to place it above the hero title */
+    left: -5rem; /* Adjust the position to place it to the left of the hero title */
+    z-index: -1; 
+}
+.hero-title{
+    position:relative;
+    z-index: 1;
+}
+.hero-title>h1{
+    margin-left: 0;
+  font-weight: 500;
+  font-size: 3rem;  
+  
+   
+}
+.hero-left{
+    
+    text-align: left;
+    gap:1rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border:3px solid rgba(120,120,120,0.374);
+    padding:0.5rem 1rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-left: 0;
+    width:100%;
+}
+span{
+    display: inline;
+}
+.button{
+    background-color:light blue;
+}
+.search-bar>input{
+border:none;
+outline: none;
+}
+.counting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.premium{
+    padding:1rem;
+}
+.Happy{
+    
+    padding:1rem;
+}
+.Award{
+    
+    padding:1rem;
+}
+.count-des{
+    font-size: 80%;
+}
+.count{
+    font-size: 200%;
+    font-weight: bold;
+}

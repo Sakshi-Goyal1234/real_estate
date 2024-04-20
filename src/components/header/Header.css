@@ -1,0 +1,40 @@
+
+.h-wrapper {
+  /* margin:0; */
+  background-color:black;
+  color: white;
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  /* padding: 10px 0; */
+  /* max-width:1250px; */
+  /* width: 100%; */
+  /* margin:0 auto; */
+  /* padding-top: 1rem; */
+}
+
+.h-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  color:var(--secondary);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+ 
+  
+}
+.h-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:2rem;
+}
+/* .h_menu:hover{
+ cursor :pointer;
+} */
+.h-menu>*:hover{
+cursor: pointer;
+}
